@@ -1,0 +1,115 @@
+.container {
+    margin-top:30px;
+    margin-bottom: 20px;
+}
+.caption{
+    min-height:165px;
+}
+.itemButton{
+    margin-top: 20px;
+    text-align: center;
+}
+.thumbnail{
+    overflow: hidden;
+}
+h4 {
+    overflow: hidden;
+}
+.delete-cart{
+    background: url(/images/trash_16x16.gif) no-repeat 0 0;
+    display: block;
+    height: 16px;
+    width: 16px;
+}
+.delete-cart:hover{
+    cursor: pointer;
+}
+.books .book-list{
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+.item-checout .first-column-checkout{
+    width: 12%;
+}
+.item-checout td{
+    border-bottom: 1px solid #ddd;
+    border-top: none !important;
+    text-align: center;
+    vertical-align: middle !important;
+}
+.table-bordered{
+    border-collapse: separate;
+    border-radius: 4px;
+}
+.total-user-checkout{
+    margin-right: 20px;
+    margin-top: 15px;
+}
+.btn-user-checkout .btn{
+    margin-bottom: 10px;
+    width: 100%;
+}
+.item-checout .delete-cart{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+.total{
+    margin: 10px 10px 10px 0;
+}
+.check-b{
+    margin: 0 5px 5px 0;
+}
+
+.dropdown .btn-inverse{
+    background:#3caefa;
+    border:1px solid #91e7f7;
+}
+.dropdown .btn-inverse:hover{
+    background:rgba(80,168,225,.9);
+}
+
+nav.navbar-inverse a.navbar-brand,nav.navbar-inverse .navbar-nav>li>a{
+    color:#fff;
+}
+nav.navbar-inverse .navbar-nav>li>a:hover,nav.navbar-inverse .navbar-nav>li>a.Active{
+    background:#fff;
+    -webkit-box-shadow: 0px -3px 0px rgba(50, 50, 50, 0.2) inset;
+    box-shadow: 0px -3px 0px rgba(50, 50, 50, 0.2) inset;
+    color: #50a8e1;
+}
+#dLabel{
+    color: #FFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+}
+.column{
+    border-bottom:1px solid #E5E5E5;
+    clear:both;
+    overflow: hidden;
+}
+.t-details{
+    font-size: 1em;
+    line-height: 20px;
+    width: 100%;
+    color: #CCC;
+    border-bottom:1px dashed #E5E5E5;
+    clear:both;
+    overflow: hidden;
+}
+.column .ab-details-title{
+    float:left;
+    font-size: 1em;
+    line-height: 50px;
+    color: #666;
+}
+.ab-details-info{
+    float: left;
+    line-height: 55px;
+    margin-left: 10px;
+    font-size:12px;
+    color: #777;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 1);
+}
